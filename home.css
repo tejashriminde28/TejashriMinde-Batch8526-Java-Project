@@ -1,0 +1,57 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+section{
+	display: inline-block;
+	height:500px;
+	width: 100%;
+}
+
+footer{
+	    background-color: rgb(34 235 255 / 52%);
+
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+    padding-left: 50px;
+    padding-top: 40px;
+    font-size: 30px;
+    text-shadow: rgb(255, 34, 55);
+ }
+.menu{
+width:100%;
+height:100px;
+background-color:transparent(0,0,0,0.6);
+}
+
+.rightmenu ul{
+margin-left:1250px;
+margin-top: 40px;
+}
+.rightmenu ul li{
+font-family:'Montserrat', sans-serif;
+display:inline-block;
+list-style:none;
+font-size:15px;
+color:rgba(1 3 5);
+font-weight:bold;
+line-height:20px;
+margin-top: 40px;
+margin-left:40px;
+text-transform:uppercase;
+}
+#firstlist{
+color:orange;
+}
+.rightmenu ul li:hover{
+color:orange;
+}
+.bgimage{
+background-image: url(birth4.jpg);
+background-size:cover;
+width:100%;
+height:100%;
+background-position:center;
+}
